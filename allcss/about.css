@@ -1,0 +1,32 @@
+/* About Us Page Styles */
+.about-section {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: darkblue;
+}
+
+.about-section h1 {
+    color: darkblue;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: 10px auto;
+    font-size: 1.1em;
+}
+
+.mission, .vision {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid darkblue;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.mission h2, .vision h2 {
+    color: darkblue;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,119 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #1E3A8A; /* Dark Blue Color */
+  }
+  
+  /* Navbar Styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1E3A8A;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  nav ul li a:hover {
+    color: #60A5FA;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #1E40AF;
+  }
+  .hero h2 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Doctors Section */
+  #doctors {
+    padding: 2rem;
+    text-align: center;
+  }
+  .doctor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .doctor {
+    background-color: #1E40AF;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+  }
+  .doctor img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+  .doctor h3 {
+    margin-top: 1rem;
+  }
+  .doctor p{
+    color: yellow;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1E3A8A;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .doctor-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+    nav ul {
+      flex-direction: column;
+    }
+  }
+
+  

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: darkblue;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section.doctors {
+    text-align: center;
+    padding: 20px;
+}
+
+.doctors h1 {
+    color: darkblue;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.doctor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.doctor {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 180px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.doctor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.doctor h2 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+    color: darkblue;
+}
+
+.doctor p {
+    color: #666;
+}
